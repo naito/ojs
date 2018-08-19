@@ -13,28 +13,28 @@
 
 <locale name="ja_JP" full_name="日本語">
 	<message key="plugins.auth.ldap.displayName">LDAP</message>
-	<message key="plugins.auth.ldap.description">This plugin allows for authentication and synchronization of user accounts against an external LDAP data source.</message>
+	<message key="plugins.auth.ldap.description">T外部のLDAPデータソースを用いてユーザアカウントの認証と同期を行うようにします。</message>
 
-	<message key="plugins.auth.ldap.settings">LDAP Settings</message>
-	<message key="plugins.auth.ldap.settings.hostname">Server hostname</message>
-	<message key="plugins.auth.ldap.settings.hostname.description">E.g., "ldap.example.com", or "ldaps://ldap.example.com" (to use SSL)</message>
-	<message key="plugins.auth.ldap.settings.port">Server port</message>
-	<message key="plugins.auth.ldap.settings.port.description">Optional. Defaults to 389 (LDAP) or 636 (LDAP over SSL)</message>
-	<message key="plugins.auth.ldap.settings.basedn">Base DN</message>
-	<message key="plugins.auth.ldap.settings.basedn.description">E.g., "ou=people,dc=example,dc=com"</message>
-	<message key="plugins.auth.ldap.settings.managerdn">Manager DN</message>
-	<message key="plugins.auth.ldap.settings.managerdn.description">E.g., "cn=Manager,dc=example,dc=com"</message>
-	<message key="plugins.auth.ldap.settings.managerpwd">Manager password</message>
-	<message key="plugins.auth.ldap.settings.managerpwd.description">The manager DN and password are only required if the user profile/password synchronization or user creation options are enabled. If LDAP will be used solely for authentication then these options can be omitted.</message>
-	<message key="plugins.auth.ldap.settings.uid">Account name attribute</message>
-	<message key="plugins.auth.ldap.settings.uid.description">The attribute whose value uniquely identifies a user object, such as uid or cn or sAMAccountName.</message>
-	<message key="plugins.auth.ldap.settings.pwhash">Password encryption</message>
-	<message key="plugins.auth.ldap.settings.pwhash.description">Hash format for passwords stored to the server. SSHA is recommended.</message>
-	<message key="plugins.auth.ldap.settings.saslopt">SASL Settings (optional)</message>
-	<message key="plugins.auth.ldap.settings.sasl">Use SASL instead of simple authentication</message>
-	<message key="plugins.auth.ldap.settings.saslmech">SASL mechanism</message>
-	<message key="plugins.auth.ldap.settings.saslmech.description">E.g., "DIGEST-MD5"</message>
-	<message key="plugins.auth.ldap.settings.saslrealm">Realm</message>
-	<message key="plugins.auth.ldap.settings.saslauthzid">Requested authorization ID</message>
-	<message key="plugins.auth.ldap.settings.saslprop">SASL security properties</message>
+	<message key="plugins.auth.ldap.settings">LDAPの設定</message>
+	<message key="plugins.auth.ldap.settings.hostname">サーバホスト名</message>
+  <message key="plugins.auth.ldap.settings.hostname.description">例："ldap.example.com" や "ldaps://ldap.example.com"（SSLを使用する場合）</message>
+  <message key="plugins.auth.ldap.settings.port">ポート番号</message>
+  <message key="plugins.auth.ldap.settings.port.description">オプション。デフォルトは、389（LDAP）または、636（LDAP over SSL）。</message>
+  <message key="plugins.auth.ldap.settings.basedn">ベースDN</message>
+  <message key="plugins.auth.ldap.settings.basedn.description">例："ou=people,dc=example,dc=com"</message>
+  <message key="plugins.auth.ldap.settings.managerdn">管理者DN</message>
+  <message key="plugins.auth.ldap.settings.managerdn.description">例："cn=Manager,dc=example,dc=com"</message>
+  <message key="plugins.auth.ldap.settings.managerpwd">管理者パスワード</message>
+  <message key="plugins.auth.ldap.settings.managerpwd.description">管理者のDNとパスワードは、ユーザ情報/パスワード同期機能またはユーザ作成機能を有効にした場合のみ必要です。LDAPだけを認証に使用する場合は設定を省略することができます。</message>
+  <message key="plugins.auth.ldap.settings.uid">アカウント名属性</message>
+  <message key="plugins.auth.ldap.settings.uid.description">uid, cn, sAMAccountNameなどの、ユーザオブジェクトを一意に識別する値を持つ属性。</message>
+  <message key="plugins.auth.ldap.settings.pwhash">パスワード暗号化</message>
+  <message key="plugins.auth.ldap.settings.pwhash.description">サーバに保存するパスワードのハッシュ方式。SSHAを推奨します（PHP 4.3.0以降が必要）。</message>
+  <message key="plugins.auth.ldap.settings.saslopt">SASL設定（オプション）</message>
+  <message key="plugins.auth.ldap.settings.sasl">シンプル認証の代わりにSASLを使用する（PHP 5以降 が必要）。</message>
+  <message key="plugins.auth.ldap.settings.saslmech">SASL機構</message>
+  <message key="plugins.auth.ldap.settings.saslmech.description">例："DIGEST-MD5"</message>
+  <message key="plugins.auth.ldap.settings.saslrealm">レルム</message>
+  <message key="plugins.auth.ldap.settings.saslauthzid">認可識別子</message>
+  <message key="plugins.auth.ldap.settings.saslprop">SASLセキュリティ属性</message>
 </locale>
